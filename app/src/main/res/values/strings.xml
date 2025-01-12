@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Book Tracker</string>
+    <string name="book_title_hint">Book Title</string>
+    <string name="author_hint">Author</string>
+    <string name="page_count_hint">Page Count</string>
+    <string name="add_button_text">Add Book</string>
+</resources>
