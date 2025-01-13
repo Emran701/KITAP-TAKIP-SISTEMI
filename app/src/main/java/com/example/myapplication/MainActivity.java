@@ -26,14 +26,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initialize UI components
+        // Kullanıcı arayüzü bileşenlerini veya Initialize UI components
         bookTitleInput = findViewById(R.id.bookTitleInput);
         authorInput = findViewById(R.id.authorInput);
         pageCountInput = findViewById(R.id.pageCountInput);
         addButton = findViewById(R.id.addButton);
         bookListView = findViewById(R.id.bookListView);
 
-        // Initialize list and adapter
+        // Liste ve adaptörü başlatmak veya Initialize list and adapter
         bookList = new ArrayList<>();
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, bookList);
         bookListView.setAdapter(adapter);
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         bookList.add(bookEntry);
         adapter.notifyDataSetChanged();
 
-        // Clear input fields
+        // Clear input fields veya Giriş alanlarını temizle
         bookTitleInput.setText("");
         authorInput.setText("");
         pageCountInput.setText("");
